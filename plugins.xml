@@ -13296,6 +13296,44 @@ the registration of DOIs with mEDRA.</p>]]></description>
 			<description>Initial release on OJS Plugin Gallery</description>
 		</release>
 	</plugin>
+	<plugin category="generic" product="fixMicrosoftEmail">
+		<name locale="en">Fix Microsoft Email Plugin</name>
+		<name locale="en_US">Fix Microsoft Email Plugin</name>
+		<homepage>https://github.com/openjournalteam/fixMicrosoftEmail</homepage>
+		<summary locale="en">This plugin is a workaround to fix Microsoft Email client.</summary>
+		<summary locale="en_US">This plugin is a workaround to fix Microsoft Email client.</summary>
+		<description locale="en"><![CDATA[<p>Microsoft Email doesn't allow to send email with send as email address. By default, OJS will send email with the user email address as the sender. This will cause an error when sending an email using Microsoft Email client. </p><p>This plugin is created to fix the error when sending an email using Microsoft Email SMTP configuration.</p>]]></description>
+		<description locale="en_US"><![CDATA[<p>Microsoft Email doesn't allow to send email with send as email address. By default, OJS will send email with the user email address as the sender. This will cause an error when sending an email using Microsoft Email client. </p><p>This plugin is created to fix the error when sending an email using Microsoft Email SMTP configuration.</p>]]></description>
+		<maintainer>
+			<name>Open Journal Theme Team</name>
+			<institution>Open Journal Theme</institution>
+			<email>support@openjournaltheme.com</email>
+		</maintainer>
+		<release date="2024-04-17" version="1.0.0.0" md5="dbb89c9e8ace1aa667cd98d871af3710">
+			<package>https://github.com/openjournalteam/fixMicrosoftEmail/releases/download/1.0.0.0/fixMicrosoftEmail.tar.gz</package>
+			<compatibility application="ojs2">
+				<version>3.3.0.0</version>
+				<version>3.3.0.1</version>
+				<version>3.3.0.2</version>
+				<version>3.3.0.3</version>
+				<version>3.3.0.4</version>
+				<version>3.3.0.5</version>
+				<version>3.3.0.6</version>
+				<version>3.3.0.7</version>
+				<version>3.3.0.8</version>
+				<version>3.3.0.9</version>
+				<version>3.3.0.10</version>
+				<version>3.3.0.11</version>
+				<version>3.3.0.12</version>
+				<version>3.3.0.13</version>
+				<version>3.3.0.14</version>
+				<version>3.3.0.15</version>
+				<version>~3.3.0.0</version>
+			</compatibility>
+			<certification type="reviewed"/>
+			<description>Initial release on OJS Plugin Gallery</description>
+		</release>
+	</plugin>
 	<plugin category="generic" product="conference">
 		<name locale="en">Conference publishing</name>
 		<name locale="en_US">Conference publishing</name>
